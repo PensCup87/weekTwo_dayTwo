@@ -122,6 +122,15 @@ namespace weekTwo_dayTwo
             int[] lotteryNumbers = {9, 32, 47, 91, 9, 87, 71, 23, 33, 71, 87, 34, 67, 34};
             Console.WriteLine(Array.LastIndexOf(lotteryNumbers, 87));
 
+            char[] randomLetters = {'x', 'y', 'j', 'b', 'z', 's', 'j'};
+            Console.WriteLine(randomLetters[1]);
+            Array.Reverse(randomLetters);
+            Console.WriteLine(randomLetters[1]);
+
+            string[] wackPack = {"Mariann from Brooklyn", "Beetlejuice", "Eric the Actor", "Bobo", "Hight Pitch Eric"};
+            Array.Sort(wackPack);
+            Console.WriteLine(wackPack[0] + " & " + wackPack[wackPack.Length - 1]);
+
 
 
 
