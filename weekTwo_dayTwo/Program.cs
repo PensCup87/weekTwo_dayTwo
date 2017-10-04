@@ -83,6 +83,44 @@ namespace weekTwo_dayTwo
                 Console.WriteLine(musician);
             }
 
+            //Another Do It Secion
+
+            string[] favoriteFoods = { "pasta", "pizza", "gelatto", "chicken", "pulled pork", "french fries" };
+            foreach(string food in favoriteFoods)
+            {
+                Console.WriteLine(food);
+            }
+
+            //int number;
+            //int[] luckyNumbersAgain = { 3, 7, 9, 16, 25, 36, 49, 64, 81, 100 };
+            //foreach(int number in luckyNumbersAgain)
+            //{
+            //    if (number == 3){
+            //        Console.WriteLine("Your lucky number is 3"); }
+            //    else if (number == 5){
+            //        Console.WriteLine("Your lucky number is 5");
+            //    }
+            //    else if (number == 7)
+            //        {
+            //        Console.WriteLine("Your Lucky number is 7");
+            //    }
+            //    else if (number == 11)
+            //        {
+            //        Console.WriteLine("Your lucky number is 11");
+            //    }
+
+            //    }
+            //}
+
+            //Some ARRAY Practice
+
+            //Create/Initialize Arrat of Names & Pick a Value to Output the Index
+            string[] sternStaff = {"Howard" , "Fred", "Robin", "Gary", "Sal", "Richard"};
+            Console.WriteLine(Array.IndexOf(sternStaff, "Gary"));
+
+            //Creat A String of Ints; Find a Number the Print the Number's Index
+            int[] lotteryNumbers = {9, 32, 47, 91, 9, 87, 71, 23, 33, 71, 87, 34, 67, 34};
+            Console.WriteLine(Array.LastIndexOf(lotteryNumbers, 87));
 
 
 
